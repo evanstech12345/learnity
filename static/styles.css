@@ -5,7 +5,7 @@
 
 body {
     background-color: lightcyan;
-    overflow-y: hidden;
+    overflow-x: hidden;
 }
 .title {
     position: relative;
@@ -42,4 +42,40 @@ body {
     left: 48%;
     font-size: 2rem;
     padding: 20px;
+}
+
+.card {
+    position: relative;
+    top: 30em;
+    height: 300px;
+    width: 400px;
+    border-radius: 10%;
+    border-width: 2px;
+    border-color: black;
+    align-items: center;
+}
+
+
+.signh1 {
+    position: relative;
+    top: .5em;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.learnhr {
+    border-color: black;
+}
+
+.lrp {
+    position: relative;
+    font-size: 1.5em;
+}
+
+.learnNowbtn {
+    position: relative;
+    width: 90px;
+    height: 50px;
+    border-radius: 10px;
+    
 }
