@@ -148,3 +148,49 @@ body {
     border-radius: 10px;
     align-items: center;
 }
+
+.learning-div {
+    position: relative;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    top: 10em;
+    display: flex;
+    align-items: center;
+    height: 500px;
+    width: 1000px;
+    justify-content: center;
+}
+
+.hello-learn {
+    position: relative;
+    height: 300px;
+    width: 500px;
+    bottom: 4em;
+    left: 14em;
+}
+
+.hello-p {
+    position: relative;
+    top: 10em;
+    text-align: center;
+    right:15em;
+}
+
+.hellobtn {
+    position: relative;
+    top: 13em;
+    right: 30em;
+    width: 90px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.homelink {
+    color: black;
+}
+
+.homelink:hover {
+    color: black;
+}
