@@ -1,5 +1,9 @@
 var video = document.querySelector("#videoElement");
 
+var nextSlide = document.getElementById('next_slide');
+
+var helloParagraph = document.getElementById('helloPara');
+
 camBtn = document.getElementById('faceCamBtn');
 
 
@@ -15,3 +19,9 @@ if (navigator.mediaDevices.getUserMedia) {
 }
 }
 )
+
+
+addEventListener('click', e => {
+  document.getElementById('helloPara').innerHTML = 'how to say hello';
+  document.getElementById('helloPara').innerHTML = 'how to say your welcome';
+});
