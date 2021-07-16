@@ -149,6 +149,15 @@ body {
     align-items: center;
 }
 
+.beglearn25 {
+    position: relative;
+    bottom: 21em;
+    font-size: 2rem;
+    text-align:center;
+    /* left: 5em; */
+    
+}
+
 .learning-div {
     position: relative;
     background-color: white;
@@ -158,7 +167,7 @@ body {
     top: 10em;
     display: flex;
     align-items: center;
-    height: 500px;
+    height: 1500px;
     width: 1000px;
     justify-content: center;
 }
@@ -193,4 +202,54 @@ body {
 
 .homelink:hover {
     color: black;
+}
+
+
+.helloimg {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    
+    /* right: 40em; */
+}
+
+.helloH3 {
+    position: relative;
+    top: 5em;
+    right: 5em;
+    text-align: center;
+
+}
+
+.explanation-item {
+    position: relative;
+    bottom: 30em;
+    right: 40em;
+    height: 250px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.video_screen {
+    position: relative;
+    height: 500px;
+    width: 500px;
+    left: 30%;
+    
+}
+
+.videodiv {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+.turnon {
+    position: relative;
+    left: 8%;
 }
