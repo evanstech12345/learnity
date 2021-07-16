@@ -150,12 +150,10 @@ body {
 }
 
 .beglearn25 {
-    position: relative;
-    bottom: 21em;
+    margin-bottom: 40em;
     font-size: 2rem;
-    text-align:center;
-    /* left: 5em; */
-    
+    /* margin-left: 1.5em; */
+    text-align: center;
 }
 
 .learning-div {
@@ -165,11 +163,8 @@ body {
     border-style: solid;
     border-width: 2px;
     top: 10em;
-    display: flex;
-    align-items: center;
     height: 1500px;
     width: 1000px;
-    justify-content: center;
 }
 
 .hello-learn {
@@ -206,7 +201,7 @@ body {
 
 
 .helloimg {
-    position: relative;
+    
     height: 200px;
     width: 200px;
     
@@ -215,23 +210,15 @@ body {
 
 .helloH3 {
     position: relative;
-    top: 5em;
-    right: 5em;
     text-align: center;
-
 }
 
 .explanation-item {
     position: relative;
-    bottom: 30em;
-    right: 40em;
+    bottom: 75em;
+    margin-left: 5em;
     height: 250px;
     width: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    
 }
 
 .video_screen {
@@ -252,4 +239,9 @@ body {
 .turnon {
     position: relative;
     left: 8%;
+}
+
+.howareyou-item {
+    bottom: 90.5em;
+    margin-left: 40em;
 }
