@@ -245,3 +245,53 @@ body {
     bottom: 90.5em;
     margin-left: 40em;
 }
+
+.nameimg {
+    height: 300px;
+    width: 350px;
+}
+
+.nameis-item {
+    position: relative;
+    bottom: 85em;
+    margin-left: 1em;
+    height: 350px;
+    width: 400px;
+}
+.nameH3 {
+    text-align: center;
+}
+
+.boyimg {
+    height: 200px;
+    width: 200px;
+}
+
+.boyH3 {
+    text-align: center;
+}
+
+.boy-item {
+    position: relative;
+    bottom: 100.5em;
+    margin-left: 40em;
+    height: 250px;
+    width: 200px;
+}
+
+.girl-item {
+    position: relative;
+    bottom: 91.5em;
+    margin-left: 40em;
+    height: 250px;
+    width: 200px;
+}
+
+.girlimg {
+    height: 200px;
+    width: 200px;
+}
+
+.girlH3 {
+    text-align: center;
+}
