@@ -22,7 +22,7 @@ camBtn.addEventListener('click', e => {
       console.log("Something went wrong!");
     });
 }  
-if (camBtn.innerText = "Turn Off Video") {
+if (camBtn.innerText === "Turn Off Video") {
   camBtn.addEventListener('click', j => {
     video.style.display = "none";
   })
