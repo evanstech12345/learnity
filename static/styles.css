@@ -163,7 +163,7 @@ body {
     border-style: solid;
     border-width: 2px;
     top: 10em;
-    height: 1500px;
+    height: 2000px;
     width: 1000px;
 }
 
@@ -294,4 +294,88 @@ body {
 
 .girlH3 {
     text-align: center;
+}
+
+.homeimg {
+    height: 200px;
+    width: 200px;
+}
+
+.home-item {
+    position: relative;
+    bottom: 107.5em;
+    margin-left: 1em;
+    height: 350px;
+    width: 400px;
+}
+
+.homeH3 {
+    text-align: center;
+}
+
+.eatimg {
+    height: 200px;
+    width: 200px;
+}
+
+.eat-item {
+    position: relative;
+    bottom: 105em;
+    margin-left: 1em;
+    height: 350px;
+    width: 400px;
+}
+
+.eatH3 {
+    text-align: center;
+}
+
+.dadimg {
+    height: 200px;
+    width: 200px;
+}
+
+.dad-item {
+    position: relative;
+    bottom: 126.5em;
+    margin-left: 40em;
+    height: 250px;
+    width: 200px;
+}
+.dadH3 {
+    align-items: center;
+}
+
+.planeimg {
+    height: 200px;
+    width: 200px;
+}
+
+.plane-item {
+    position: relative;
+    bottom: 118.5em;
+    margin-left: 40em;
+    height: 250px;
+    width: 200px;
+}
+
+.planeH3 {
+    align-items: center;
+}
+
+.helpimg {
+    height: 200px;
+    width: 200px;
+}
+
+.help-item {
+    position: relative;
+    bottom: 134.5em;
+    margin-left: 1em;
+    height: 350px;
+    width: 400px;
+}
+
+.helpH3 {
+    align-items: center;
 }
