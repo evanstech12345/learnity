@@ -1266,6 +1266,58 @@ body {
         border-radius: 10px;
         margin-left: 1em;
     }
+
+    .youtube-articles {
+        /* position: relative; */
+        margin-top: 15em;
+        background-color: white;
+        /* margin-left: 5em; */
+        height: 850px;
+        width: 500px;
+        border-color: black;
+        border-width: 2px;
+        border-style: solid;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    .youtubeh4 {
+        position: relative;
+        margin-bottom: 15em;
+        right: 6em;
+    }
+    
+    .youtube-item {
+        position: relative;
+        bottom: 20em;
+        right: 2em;
+    }
+    
+    .youtube-div {
+         position: relative;
+         left: 13em;
+     } 
+    
+    
+     .paidh4 {
+        position: relative;
+        bottom: 5em;
+        right: 5em;
+     }
+    
+     .paid-item {
+        position: relative;
+        bottom: 5em;
+     }
+    
+     .paid-div {
+         position: relative;
+         right: 22em;
+         top: 20em;
+     }
 }
 
 
