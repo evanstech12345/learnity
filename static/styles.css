@@ -18,7 +18,13 @@ body {
     text-align: center;
 }
 
+.learnnowab {
 
+    display: none;
+}
+.learnartab {
+    display: none;
+}
 
 .logo {
     position: relative;
@@ -230,10 +236,10 @@ body {
 
 .video_screen {
     position:fixed; 
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 400px;
     top: 10em;
-    margin-left: 40%;
+    margin-left: 10%;
     z-index: 1000;
     
 }
@@ -445,6 +451,25 @@ body {
  }
 }
 
+@media screen and (max-width: 2000px) {
+    .video_screen {
+        position:fixed; 
+        height: 300px;
+        width: 300px;
+        top: 10em;
+        margin-left: 43%;
+        z-index: 1000;
+        
+    }
+
+    .learnnowab {
+        display: none;
+    }
+    .learnartab {
+        display: none;
+    }
+}
+
  @media screen and (max-width: 990px) {
      
 .logo {
@@ -466,6 +491,13 @@ body {
     height: 500px;
     width: 1000px;
     justify-content: center;
+}
+
+.learnnowab {
+    display: none;
+}
+.learnartab {
+    display: none;
 }
 
 .paraAbt {
@@ -593,6 +625,13 @@ body {
         font-size: 2.5rem;
         text-align: center;
     } 
+
+    .learnnowab {
+        display: none;
+    }
+    .learnartab {
+        display: none;
+    }
 
     .logo {
         position: relative;
@@ -730,3 +769,633 @@ body {
         align-items: center;
     }
      }
+
+     @media screen and (max-width: 643px) {
+        .title {
+            position: relative;
+            top: 1em;
+            font-size: 2.5rem;
+            text-align: center;
+        } 
+    
+        .learnnowab {
+            display: none;
+        }
+        .learnartab {
+            display: none;
+        }
+
+        .logo {
+            position: relative;
+            right: 53%;
+            height: 250px;
+            width: 330px;
+        }
+        
+        .About {
+            position: relative;
+            background-color: white;
+            border-color: black;
+            border-style: solid;
+            border-width: 2px;
+            top: 10em;
+            display: flex;
+            align-items: center;
+            height: 500px;
+            width: 1000px;
+            justify-content: center;
+        }
+        
+        .paraAbt {
+            position: relative;
+            left: 48%;
+            font-size: 1.6rem;
+            padding: 0;
+        }
+        
+        .card {
+            position: relative;
+            top: 30em;
+            height: 310px;
+            width: 250px;
+            border-radius: 10%;
+            border-width: 2px;
+            border-color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        
+        
+        
+        
+        
+        .signh1 {
+            position: relative;
+            top: .5em;
+            font-size: 1.5rem;
+            text-align: center;
+        }
+        
+        .learnhr {
+            border-color: black;
+        }
+        
+        .lrp {
+            position: relative;
+            font-size: 1.5em;
+            text-align: center;
+        }
+        
+        .learnNowbtn {
+            position: relative;
+            bottom: 2rem;
+            width: 90px;
+            height: 50px;
+            align-items: center;
+            border-radius: 10px;
+            
+        }
+        
+        
+        .card_friends {
+            position: relative;
+            background-color: white;
+            height: 300px;
+            width: 250px;
+            border-radius: 10%;
+            border-width: 2px;
+            border-color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .cent{
+            position: relative;
+            bottom: 5.9em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        
+        .lrpf {
+            position: relative;
+            font-size: 1.3em;
+            text-align: center;
+        }
+        
+        .learnNowbtnfr {
+            position: relative;
+            top: 1.5em;
+            width: 90px;
+            height: 50px;
+            border-radius: 10px;
+            align-items: center;
+            
+        }
+        .cent2{
+            position: relative;
+            bottom: 19.4em;
+            float: right;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        
+        .lrpfa {
+            position: relative;
+            font-size: 1.3em;
+            text-align: center;
+        }
+        
+        
+        .learnNowbtnart {
+            position: relative;
+            top: .4em;
+            width: 90px;
+            height: 50px;
+            border-radius: 10px;
+            align-items: center;
+        }
+}
+
+
+@media screen and (max-width: 576px) {
+
+
+    .title {
+        position: relative;
+        top: 1em;
+        font-size: 2.5rem;
+        text-align: center;
+    } 
+
+    .logo {
+        position: relative;
+        right: 53%;
+        height: 250px;
+        width: 230px;
+    }
+    .learnnowab {
+        display: none;
+    }
+    .learnartab {
+        display: none;
+    }
+
+
+    .About {
+        position: relative;
+        background-color: white;
+        border-color: black;
+        border-style: solid;
+        border-width: 2px;
+        top: 10em;
+        display: flex;
+        align-items: center;
+        height: 500px;
+        width: 500px;
+        justify-content: center;
+    }
+    
+    .paraAbt {
+        position: relative;
+        left: 48%;
+        font-size: 1.5rem;
+        padding: 0;
+    }
+
+    .card {
+        position: relative;
+        top: 30em;
+        height: 310px;
+        width: 250px;
+        border-radius: 10%;
+        border-width: 2px;
+        border-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    
+    
+    
+    
+    .signh1 {
+        position: relative;
+        top: .5em;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+    .learnhr {
+        border-color: black;
+    }
+    
+    .lrp {
+        position: relative;
+        font-size: 1.5em;
+        text-align: center;
+    }
+    
+    .learnNowbtn {
+        position: relative;
+        bottom: 2rem;
+        width: 90px;
+        height: 50px;
+        align-items: center;
+        border-radius: 10px;
+        
+    }
+    
+    
+    .card_friends {
+        position: relative;
+        background-color: white;
+        height: 300px;
+        width: 250px;
+        border-radius: 10%;
+        border-width: 2px;
+        border-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .cent{
+        position: relative;
+        bottom: 5.9em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    .lrpf {
+        position: relative;
+        font-size: 1.3em;
+        text-align: center;
+    }
+    
+    .learnNowbtnfr {
+        position: relative;
+        top: 1.5em;
+        width: 90px;
+        height: 50px;
+        border-radius: 10px;
+        align-items: center;
+        
+    }
+    .cent2{
+        position: relative;
+        bottom: 19.4em;
+        float: right;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    .lrpfa {
+        position: relative;
+        font-size: 1.3em;
+        text-align: center;
+    }
+    
+    
+    .learnNowbtnart {
+        position: relative;
+        top: .4em;
+        width: 90px;
+        height: 50px;
+        border-radius: 10px;
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width: 499px) {
+    .title {
+        position: relative;
+        top: 1em;
+        font-size: 2.5rem;
+        text-align: center;
+    } 
+
+    .logo {
+        position: relative;
+        right: 40%;
+        height: 250px;
+        width: 240px;
+    }
+    
+    .About {
+        position: relative;
+        background-color: white;
+        border-color: black;
+        border-style: solid;
+        border-width: 2px;
+        top: 10em;
+        display: flex;
+        align-items: center;
+        height: 500px;
+        width: 430px;
+        justify-content: center;
+    }
+    
+    .paraAbt {
+        position: relative;
+        left: 60%;
+        font-size: 1.3rem;
+        padding: 0;
+    }
+
+    .card {
+        position: relative;
+        top: 30em;
+        height: 310px;
+        width: 220px;
+        border-radius: 10%;
+        border-width: 2px;
+        border-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    
+    
+    
+    
+    .signh1 {
+        position: relative;
+        top: .5em;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+    .learnhr {
+        border-color: black;
+    }
+    
+    .lrp {
+        position: relative;
+        font-size: 1.5em;
+        text-align: center;
+    }
+    
+    .learnNowbtn {
+        position: relative;
+        bottom: 2rem;
+        width: 90px;
+        height: 50px;
+        align-items: center;
+        border-radius: 10px;
+        
+    }
+    
+    
+    .card_friends {
+        position: relative;
+        background-color: white;
+        height: 300px;
+        width: 250px;
+        border-radius: 10%;
+        border-width: 2px;
+        border-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .cent{
+        position: relative;
+        bottom: 5.9em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .learnnowab {
+        display: none;
+    }
+    .learnartab {
+        display: none;
+    }
+    
+    .lrpf {
+        position: relative;
+        font-size: 1.3em;
+        text-align: center;
+    }
+    
+    .learnNowbtnfr {
+        position: relative;
+        top: 1.5em;
+        width: 90px;
+        height: 50px;
+        border-radius: 10px;
+        align-items: center;
+        
+    }
+    .cent2{
+        position: relative;
+        bottom: 19.4em;
+        float: right;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    .lrpfa {
+        position: relative;
+        font-size: 1.3em;
+        text-align: center;
+    }
+    
+    
+    .learnNowbtnart {
+        position: relative;
+        top: .4em;
+        width: 90px;
+        height: 50px;
+        border-radius: 10px;
+        align-items: center;
+    }
+
+}
+
+
+
+@media screen and (max-width: 411px) {
+    .title {
+        position: relative;
+        top: 1em;
+        font-size: 2.5rem;
+        text-align: center;
+    } 
+
+    .logo {
+        position: relative;
+        right: 20%;
+        height: 250px;
+        width: 240px;
+    }
+    
+    .About {
+        position: relative;
+        background-color: white;
+        border-color: black;
+        border-style: solid;
+        border-width: 2px;
+        top: 10em;
+        display: flex;
+        align-items: center;
+        height: 500px;
+        width: 430px;
+        justify-content: center;
+    }
+    
+    .paraAbt {
+        position: relative;
+        left: 80%;
+        font-size: 1.3rem;
+        padding: 0;
+    }
+
+    .card {
+        position: relative;
+        top: 30em;
+        height: 310px;
+        width: 200px;
+        border-radius: 10%;
+        border-width: 2px;
+        border-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        display: none;
+    }
+    
+    
+    
+    
+    
+    .signh1 {
+        position: relative;
+        top: .5em;
+        font-size: 1.5rem;
+        text-align: center;
+        display: none;
+    }
+    
+    .learnhr {
+        border-color: black;
+    }
+    
+    .lrp {
+        position: relative;
+        font-size: 1.5em;
+        text-align: center;
+    }
+    
+    .learnNowbtn {
+        position: relative;
+        bottom: 2rem;
+        width: 90px;
+        height: 50px;
+        align-items: center;
+        border-radius: 10px;
+        
+    }
+    
+    
+    .card_friends {
+        position: relative;
+        background-color: white;
+        height: 300px;
+        width: 250px;
+        border-radius: 10%;
+        border-width: 2px;
+        border-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .cent{
+        position: relative;
+        bottom: 5.9em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    .lrpf {
+        position: relative;
+        font-size: 1.3em;
+        text-align: center;
+    }
+    
+    .learnNowbtnfr {
+        position: relative;
+        
+        width: 90px;
+        height: 50px;
+        border-radius: 10px;
+        align-items: center;
+        
+    }
+    .cent2{
+        position: relative;
+        bottom: 19.4em;
+        float: right;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    .lrpfa {
+        position: relative;
+        font-size: 1.3em;
+        text-align: center;
+    }
+    
+    
+    .learnNowbtnart {
+        position: relative;
+        top: .4em;
+        width: 90px;
+        height: 50px;
+        border-radius: 10px;
+        align-items: center;
+    }
+    .learnnowab {
+        position: relative;
+        border-radius: 10px;
+       /* height: 60px;  */
+        /* width: 150px; */
+        right: 360%;
+        top: 25em;
+        padding: 10px;
+        display:inline-block;
+    }
+    .learnartab {
+        position: relative;
+        border-radius: 10px;
+        /* height: 50px;  */
+        /* width: 3000px; */
+        right:260%;
+        top: 25em;
+        padding: 10px;
+        display: inline-flex;
+    }
+}
+
