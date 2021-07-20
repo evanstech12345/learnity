@@ -470,6 +470,46 @@ body {
     }
 }
 
+@media screen and (max-width: 1637px) {
+    .video_screen {
+        position:fixed; 
+        height: 300px;
+        width: 300px;
+        top: 10em;
+        margin-left: 40%;
+        z-index: 1000;
+        
+    }
+    .turnon {
+        position: relative;
+        
+        padding: 5px;
+        border-radius: 10px;
+        margin-left: 20em;
+    }
+}
+
+@media screen and (max-width: 1112px) {
+    .video_screen {
+        position:fixed; 
+        height: 300px;
+        width: 300px;
+        top: 10em;
+        margin-left: 40%;
+        z-index: 1000;
+        
+    }
+    .turnon {
+        position: relative;
+        
+        padding: 5px;
+        border-radius: 10px;
+        margin-left: 10em;
+    }
+}
+
+
+
  @media screen and (max-width: 990px) {
      
 .logo {
@@ -614,6 +654,57 @@ body {
     border-radius: 10px;
     align-items: center;
 }
+
+
+.learning-div {
+    position: relative;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    top: 10em;
+    height: 2000px;
+    width: 1000px;
+}
+
+.right {
+    position: relative;
+    right: 10em;
+    bottom: 1em;
+}
+.left {
+    position: relative;
+    right: 2.5em;
+    bottom: 1em;
+}
+
+.video_screen {
+    position:fixed; 
+    height: 400px;
+    width: 250px;
+    top: 10em;
+    margin-left: 40%;
+    z-index: 1000;
+    
+}
+
+.paidh4 {
+    position: relative;
+    bottom: 5em;
+    left: 2em;
+ }
+
+ .paid-item {
+    position: relative;
+    left: 10em;
+    bottom: 5em;
+ }
+
+ .paid-div {
+     position: relative;
+     right: 22em;
+     top: 20em;
+ }
  }
 
 
@@ -768,6 +859,66 @@ body {
         border-radius: 10px;
         align-items: center;
     }
+
+    .learning-div {
+        position: relative;
+        background-color: white;
+        border-color: black;
+        border-style: solid;
+        border-width: 2px;
+        top: 10em;
+        height: 2000px;
+        width: 1200px;
+    }
+    
+    .right {
+        position: relative;
+        right: 21em;
+        bottom: 1em;
+    }
+    .left {
+        position: relative;
+        right: 2.9em;
+        bottom: 1em;
+    }
+    
+    .video_screen {
+        position:fixed; 
+        height: 400px;
+        width: 150px;
+        top: 10em;
+        right: 80%;
+        z-index: 1000;
+        
+    }
+
+    .paidh4 {
+        position: relative;
+        bottom: 5em;
+        left: 6em;
+     }
+    
+     .paid-item {
+        position: relative;
+        left: 16.5em;
+        bottom: 5em;
+     }
+    
+     .paid-div {
+         position: relative;
+         right: 22em;
+         top: 20em;
+     }
+     }
+
+     @media screen and (max-width: 698px) {
+        .turnon {
+            position: relative;
+            
+            padding: 5px;
+            border-radius: 10px;
+            margin-left: 5em;
+        }
      }
 
      @media screen and (max-width: 643px) {
@@ -1075,6 +1226,46 @@ body {
         border-radius: 10px;
         align-items: center;
     }
+
+    .learning-div {
+        position: relative;
+        background-color: white;
+        border-color: black;
+        border-style: solid;
+        border-width: 2px;
+        top: 10em;
+        height: 2000px;
+        width: 550px;
+    }
+    
+    .right {
+        position: relative;
+        right: 21em;
+        bottom: 1em;
+    }
+    .left {
+        position: relative;
+        right: 3.4em;
+        bottom: 1em;
+    }
+    
+    .video_screen {
+        position:fixed; 
+        height: 400px;
+        width: 150px;
+        top: 10em;
+        right: 80%;
+        z-index: 1000;
+        
+    }
+
+    .turnon {
+        position: relative;
+        
+        padding: 5px;
+        border-radius: 10px;
+        margin-left: 1em;
+    }
 }
 
 
@@ -1227,6 +1418,37 @@ body {
         height: 50px;
         border-radius: 10px;
         align-items: center;
+    }
+    .learning-div {
+        position: relative;
+        background-color: white;
+        border-color: black;
+        border-style: solid;
+        border-width: 2px;
+        top: 10em;
+        height: 2000px;
+        width: 505px;
+    }
+    
+    .right {
+        position: relative;
+        right: 21em;
+        bottom: 1em;
+    }
+    .left {
+        position: relative;
+        right: 3em;
+        bottom: 1em;
+    }
+    
+    .video_screen {
+        position:fixed; 
+        height: 400px;
+        width: 150px;
+        top: 10em;
+        right: 80%;
+        z-index: 1000;
+        
     }
 
 }
@@ -1396,6 +1618,45 @@ body {
         top: 25em;
         padding: 10px;
         display: inline-flex;
+    }
+    .learning-div {
+        position: relative;
+        background-color: white;
+        border-color: black;
+        border-style: solid;
+        border-width: 2px;
+        top: 10em;
+        height: 2000px;
+        width: 550px;
+    }
+    
+    .right {
+        position: relative;
+        right: 21em;
+        bottom: 1em;
+    }
+    .left {
+        position: relative;
+        right: 2.9em;
+        bottom: 1em;
+    }
+    
+    .video_screen {
+        position:fixed; 
+        height: 400px;
+        width: 150px;
+        top: 10em;
+        right: 80%;
+        z-index: 1000;
+        
+    }
+
+    .turnon {
+        position: relative;
+        
+        padding: 5px;
+        border-radius: 10px;
+        right: 1em;
     }
 }
 
